@@ -1,0 +1,4 @@
+{
+  "piles": [],
+  "schema_note": "Each pile: {id, code, host, members:[], lines:[LineItem], status:'open'|'settled', created_at}. LineItem: {id, surface:'food'|'im'|'dineout', amount, payer, splits:{member_id:share}, note, ts, ref}. Settlement computed on /settle."
+}

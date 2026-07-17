@@ -1,0 +1,43 @@
+{
+  "recipes": [
+    {
+      "id": "r-butter-chicken",
+      "name": "Butter Chicken",
+      "base_dish": "butter chicken",
+      "servings_default": 2,
+      "spice_default": "medium",
+      "diet_default": "non-veg",
+      "cook_minutes": 45,
+      "bom": [
+        {"ingredient": "chicken breast", "qty_per_serving": 200, "unit": "g"},
+        {"ingredient": "tomato", "qty_per_serving": 2, "unit": "pcs"},
+        {"ingredient": "cream", "qty_per_serving": 50, "unit": "ml"},
+        {"ingredient": "butter", "qty_per_serving": 25, "unit": "g"},
+        {"ingredient": "garam masala", "qty_per_serving": 5, "unit": "g"},
+        {"ingredient": "ginger garlic paste", "qty_per_serving": 10, "unit": "g"},
+        {"ingredient": "onion", "qty_per_serving": 1, "unit": "pcs"}
+      ],
+      "substitution_rules": {
+        "keto": ["cream -> cream cheese", "onion -> omitted"],
+        "veg": ["chicken breast -> paneer 200g"]
+      }
+    },
+    {
+      "id": "r-thai-curry",
+      "name": "Thai Green Curry",
+      "base_dish": "thai green curry",
+      "servings_default": 4,
+      "spice_default": "medium",
+      "diet_default": "non-veg",
+      "cook_minutes": 35,
+      "bom": [
+        {"ingredient": "chicken thigh", "qty_per_serving": 150, "unit": "g"},
+        {"ingredient": "green curry paste", "qty_per_serving": 30, "unit": "g"},
+        {"ingredient": "coconut milk", "qty_per_serving": 100, "unit": "ml"},
+        {"ingredient": "bell pepper", "qty_per_serving": 1, "unit": "pcs"},
+        {"ingredient": "thai basil", "qty_per_serving": 5, "unit": "g"}
+      ],
+      "substitution_rules": {}
+    }
+  ]
+}

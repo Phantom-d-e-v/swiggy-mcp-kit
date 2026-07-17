@@ -1,0 +1,8 @@
+# Ignore OS / editor noise. The kit itself is config + markdown, all intended to be committed.
+.DS_Store
+*.swp
+*.bak
+*.zip
+node_modules/
+.idea/
+.vscode/
