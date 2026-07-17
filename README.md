@@ -29,5 +29,15 @@ Then paste `prompts/rasoi.md` or `prompts/splitr.md` into your chat.
 | `MONETIZATION.md` | How to make money compliantly |
 | `EMAIL-TO-SWIGGY.md` | Template to request partner/whitelisting |
 
+## Roadmap (research-driven — see [MARKET-RESEARCH.md](MARKET-RESEARCH.md))
+
+Market research (July 2026) shows: the Swiggy MCP ecosystem is early (official manifest 145★, no polished consumer product yet), **split-bill is a red ocean** (Splitwise + UPI-native alternatives), and **District already unifies the three surfaces**. So we don't rebuild those. Priorities:
+
+1. **Party Mode** (flagship) — one prompt chains Dineout booking + Instamart-to-table + Food, splits all. Most demo-worthy.
+2. **Rasoi Week Planner** — consolidated cross-recipe Instamart cart under a budget.
+3. **Restock agent** — reorder past Instamart carts.
+4. **Splitr as a feature** — "split this order" auto-fed ledger (exports to Splitwise/UPI), not a standalone app.
+5. **ChatGPT Plugin wrapper** — distribute Rasoi + Splitr via the Plugin directory.
+
 ## License
 MIT — see [LICENSE](LICENSE).
