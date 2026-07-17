@@ -26,8 +26,8 @@ I want to confirm the compliant boundary:
 REDIRECT URI WHITELISTING
 The manifest says "contact us if you need additional URIs whitelisted." I'd like to request
 whitelisting of:
-  - https://rasoi.example.com/oauth/callback
-  (I can supply the final production domain once the model above is confirmed.)
+  - https://phantomclaw.in/oauth/callback
+  (I can supply additional production subdomains once the model above is confirmed.)
 Please advise the process and any info you need from me (company/entity, use description, security docs).
 
 WHAT I'M NOT ASKING FOR
